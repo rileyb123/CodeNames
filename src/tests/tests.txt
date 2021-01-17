@@ -1,0 +1,18 @@
+Functionality																				TestCase
+Defines a Board class contains 25 Location instances 							        tests.codenameTests.
+
+reads GameWords.txt and stores them in a List 								            tests.codenameTests.testReadFile
+
+Creates List containing 25 distinct codenames selected at random                        tests.codenameTests.testCodenameList
+
+Creates List containing randomly generated assignments for people                      tests.codenameTests.testRandomPeople
+
+Red team first and 25 locations with codename,person and not revealed                   tests.codenameTests.testNewGame
+
+returns if a clue is legal or illegal                                                 tests.codenameTests.testValidClue
+
+Decrements count,reveals location, returns whether current teams agent or not          tests.codenameTests.testCurrentTeamAgent
+ 
+Returns whether or not the Board is in one of the winning states                       tests.codenameTests.winningStateTest
+
+Returns what team did not lose when assassin revealed                                 tests.codenameTests.testTeamNotLose
